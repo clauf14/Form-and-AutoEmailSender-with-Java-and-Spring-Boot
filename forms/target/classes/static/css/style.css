@@ -1,0 +1,45 @@
+body {
+    box-sizing: border-box;
+    background-image: url(https://cdn.wallpapersafari.com/82/83/ZAhwbu.jpg);
+}
+
+h2{
+    color: #DFD9E2;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+div.thanks{
+    text-align: center;
+    align-items: center;
+}
+
+div.index {
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+form{
+    border-radius: 50px;
+    border-style: solid; color:#DFD9E2;
+    padding: 20px;
+    border-width: medium;
+    margin-left: 300px;
+    margin-right: 300px;
+    box-shadow: 0 0 25px 5px #dfd9e2;
+
+}
+
+input, select{
+    border-radius: 40px;
+    background: #DFD9E2;
+    color: #4B0774;
+}
+
+button{
+    border-radius: 50px;
+    color: #4B0774;
+    background: #DFD9E2;
+}
+

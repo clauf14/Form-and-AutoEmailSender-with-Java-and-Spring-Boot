@@ -1,0 +1,22 @@
+services:
+  db:
+    container_name: form
+    image: postgres
+    environment:
+      POSTGRES_USER: claudiufurtea
+      POSTGRES_PASSWORD: Snooky2012
+      PGDATA: /data/potgres
+    volumes:
+      - db:/data/postgres
+    ports:
+      - "5332:5432"
+    networks:
+      - db
+    restart: unless-stopped
+
+networks:
+  db:
+    driver: bridge
+
+volumes:
+  db:
