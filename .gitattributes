@@ -2,5 +2,5 @@
 *.java linguist-detectable=true  
 *.js linguist-detectable=true  
 *.html linguist-detectable=true  
-*.xml linguist-detectable=false
+*.yml linguist-detectable=true
 *.fxml linguist-detectable=false
