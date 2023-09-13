@@ -3,4 +3,4 @@
 *.js linguist-detectable=true  
 *.html linguist-detectable=true  
 *.yml linguist-detectable=true
-*.fxml linguist-detectable=false
+*.xml linguist-detectable=true
